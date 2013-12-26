@@ -1,0 +1,24 @@
+/*
+ * 公共的样式
+ * 
+ * @author: Ricky
+ */
+
+body{margin:0; font-size:12px; font-family:Arial; background:#fff; cursor:default}
+input{font-family:Arial}
+input.en{ime-mode:disabled}
+img{border:0}
+a{color:#06c}
+
+#Head{height:70px; overflow:hidden; color:#666}
+#Head .logo{float:left; width:440px; height:70px; background-image:url(images/logo.jpg)}
+#Head .info{float:right; line-height:70px; margin-right:40px}
+
+#Nav{height:30px; overflow:hidden; padding-left:20px; background-color:#2980b9}
+#Nav a{float:left; height:30px; line-height:30px; padding:0 10px; margin-right:20px; font-size:14px; color:#fff; text-decoration:none}
+#Nav a:hover,
+#Nav a.active{background-color:#3498db}
+
+#Main{height:300px; overflow:hidden}
+
+#Foot{padding:20px 0; line-height:20px; border-top:1px #ccc solid; color:#666; text-align:center}
